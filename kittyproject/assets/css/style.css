@@ -191,6 +191,9 @@ ion-icon{
     border: 2px solid var(--white);
 }.has-scrollbar::-webkit-scrollbar-button{
     width: calc(25% -30%);
+}.grid-list{
+    display: grid;
+    gap: 30px;
 }
 
 
@@ -326,4 +329,26 @@ ion-icon{
     transition: var(--transition-1);
 }.category-card .card-title:is(:hover, :focus){
     color: var(--portland-orange);
+}
+
+
+/* offer */
+
+.offer-card{
+   border-radius: var(--radius-10);
+   padding: 20px;
+   display: grid;
+   align-content: center;
+}.offer-card .card-subtitle{
+    font-size: var(--fs-7);
+    text-transform: uppercase;
+    font-weight: var(--fw-700);
+    
+}.offer-card .card-title{
+    color: var(--black);
+    margin-block: 5px 24px;
+}.offer-card .btn{
+    background-color: var(--portland-orange);
+}.offer-card .btn:is(:hover, :focus){
+    background-color: var(--black);
 }
