@@ -421,3 +421,25 @@ ion-icon{
 }.service-card .card-text{
     color: var(--spanish-gray);
 }
+
+
+/* cta */
+
+.cta{
+    background-position: 75%;
+}.cta-banner{
+    display: none;
+}.w-100{
+    width: 100%;
+}.cta-content{
+    padding-block: 80px  var(--section-padding);
+  
+}.cta .section-title{
+    text-align: left;
+    margin-block: 10px 20px;
+}.cta .section-text{
+ margin-block-end: 30px;
+}.cta .btn:is(:hover, :focus){
+    background-color: var(--white);
+    color: var(--black);
+}
