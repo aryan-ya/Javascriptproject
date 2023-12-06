@@ -443,3 +443,55 @@ ion-icon{
     background-color: var(--white);
     color: var(--black);
 }
+
+
+/* Brand */
+
+.brand{
+    --section-padding: 100px;
+}.brand .has-scrollbar{
+    gap: 0;
+}.brand .scrollbar-item{
+    min-width: 50%;
+}
+.brand .scrollbar-item:not(:last-child){
+    border-inline-end: 1px solid var(--platinum);
+}.brand-card{
+max-width: max-content;
+margin-inline: auto;
+}
+
+
+/* footer */
+
+.footer{
+    background-color: var(--raisin-black);
+    color: var(--battleship-gray);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: top;
+
+}.footer-top{
+    padding-block-start: 100px;
+    border-block-end: 1px solid var(--onyx);
+}.footer-top .container{
+    display: grid;
+    gap: 30px;
+}.footer .logo{
+    color: var(--white);
+    margin-block-end: 10px;
+}.footer-text{
+  font-size: var(--fs-6);
+  margin-block-end: 25px;
+}.footer-text .link{
+display: inline-block;
+color: var(--portland-orange);
+}.contact-item{
+    margin-block-end: 15px;
+    color: var(--white);
+    font-weight: var(--fw-700);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 15px;
+}
