@@ -642,4 +642,57 @@ color: var(--portland-orange);
 
 
 
+/**
+ * responsive for large than 1200px screen
+ */
+
+ @media (min-width: 1200px) {
+
+    /**
+     * CUSTOM PROPERTY
+     */
+  
+    :root {
+  
+      /**
+       * typography
+       */
+  
+      --fs-1: 15rem;
+      --fs-3: 3.2rem;
+  
+    }
+  
+  
+  
+    /**
+     * REUSED STYLE
+     */
+  
+    .grid-list { grid-template-columns: repeat(4, 1fr); }
+  
+  
+  
+    /**
+     * CTA
+     */
+  
+    .cta-content { padding-block: 100px; }
+  
+  
+  
+    /**
+     * BRAND, FOOTER
+     */
+  
+    :is(.brand, .footer) .container {
+      max-width: 1200px;
+      width: 100%;
+      margin-inline: auto;
+    }
+  
+    .footer { padding-block-start: 40px; }
+  
+  }
+
   
